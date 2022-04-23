@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_Produk</name>
+   <name>TC_04_Hapus pelanggan</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>af443a69-abbe-4840-b989-89b8dc60f8a2</testCaseGuid>
+   <testCaseGuid>0cec47f3-146f-4677-8f46-c6e2ab95beb7</testCaseGuid>
 </TestCaseEntity>

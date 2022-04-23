@@ -17,3 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.setText(findTestObject('Hapus pelanggan/android.widget.EditText - aurora'), 'fatwari', 0)
+
+Mobile.tap(findTestObject('Object Repository/Hapus pelanggan/android.widget.LinearLayout'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Hapus pelanggan/android.widget.Button - Edit Pelanggan'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Hapus pelanggan/android.widget.Button - Hapus Pelanggan'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Hapus pelanggan/android.widget.Button - YA'), 0)
+
+Mobile.closeApplication()
+
