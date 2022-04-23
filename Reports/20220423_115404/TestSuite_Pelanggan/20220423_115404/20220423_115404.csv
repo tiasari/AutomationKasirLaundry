@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite_Pelanggan,,,,2022-04-23 11:54:07,2022-04-23 11:54:26,18.171s,FAILED
+,,,,,,,
+Test Cases/Pelanggan/TC_01_Tambah data pelanggan,,,,2022-04-23 11:54:08,2022-04-23 11:54:23,15.216s,FAILED
+"startExistingApplication(""com.cancreative.laundrypos"")",,,,2022-04-23 11:54:08,2022-04-23 11:54:22,14.100s,PASSED
+"tap(findTestObject(""Object Repository/Tambah data pelanggan/android.widget.ImageView""), 0)",,,,2022-04-23 11:54:22,2022-04-23 11:54:23,0.619s,FAILED
+,,,,,,,
+Test Cases/Pelanggan/TC_02_Search nama pelanggan,,,,2022-04-23 11:54:23,2022-04-23 11:54:24,0.956s,FAILED
+"setText(findTestObject(""Object Repository/Search/android.widget.EditText - Cari Pelanggan""), ""aurora"", 0)",,,,2022-04-23 11:54:23,2022-04-23 11:54:24,0.507s,FAILED
+,,,,,,,
+Test Cases/Pelanggan/TC_03_Edit pelanggan,,,,2022-04-23 11:54:24,2022-04-23 11:54:25,0.874s,FAILED
+"tap(findTestObject(""Object Repository/Edit pelanggan/android.widget.LinearLayout""), 0)",,,,2022-04-23 11:54:24,2022-04-23 11:54:25,0.524s,FAILED
+,,,,,,,
+Test Cases/Pelanggan/TC_04_Hapus pelanggan,,,,2022-04-23 11:54:25,2022-04-23 11:54:26,0.803s,FAILED
+"setText(findTestObject(""Hapus pelanggan/android.widget.EditText - aurora""), ""fatwari"", 0)",,,,2022-04-23 11:54:25,2022-04-23 11:54:26,0.461s,FAILED

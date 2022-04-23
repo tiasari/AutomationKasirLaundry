@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite_Order,,,,2022-04-23 11:16:36,2022-04-23 11:17:29,53.314s,PASSED
+,,,,,,,
+Test Cases/CreateOrder/TC17_CreateOrder,,,,2022-04-23 11:16:36,2022-04-23 11:17:03,27.303s,PASSED
+"startApplication(""C:\Users\user\Downloads\Laundry_POS_base.apk"", false)",,"Buka Aplikasi
+",,2022-04-23 11:16:36,2022-04-23 11:16:48,11.847s,PASSED
+"tap(findTestObject(""Navigation/NavAdd""), 0)",,tap icon +,,2022-04-23 11:16:48,2022-04-23 11:16:53,4.960s,PASSED
+"setText(findTestObject(""Order/AddCustAndProduk/Order-SearchPelangganForm""), ""Andi"", 0)",,set pelanggan yang beli,,2022-04-23 11:16:53,2022-04-23 11:16:55,2.172s,PASSED
+"verifyElementExist(findTestObject(""Order/AddCustAndProduk/Choose Pelanggan Teratas""), 0)",,"cek apakah list choose pertama ada
+",,2022-04-23 11:16:55,2022-04-23 11:16:56,0.696s,PASSED
+"tap(findTestObject(""Order/AddCustAndProduk/Choose Pelanggan Teratas""), 0)",,"tap elemen teratas jika ada
+",,2022-04-23 11:16:56,2022-04-23 11:16:56,0.198s,PASSED
+"tap(findTestObject(""Order/AddCustAndProduk/Btn-pilihPelanggan""), 0)",,,,2022-04-23 11:16:56,2022-04-23 11:16:57,0.637s,PASSED
+"verifyElementText(findTestObject(""Order/AddCustAndProduk/PilihProduk-Tittle""), ""Pilih Produk"")",,,,2022-04-23 11:16:57,2022-04-23 11:16:58,0.775s,PASSED
+"setText(findTestObject(""Order/AddCustAndProduk/PilihProduk-SearchBox""), ""jaket"", 0)",,,,2022-04-23 11:16:58,2022-04-23 11:16:59,1.430s,PASSED
+"verifyElementExist(findTestObject(""Order/AddCustAndProduk/Select Produk, teratas""), 0)",,,,2022-04-23 11:16:59,2022-04-23 11:17:00,0.678s,PASSED
+"tap(findTestObject(""Order/AddCustAndProduk/Select Produk, teratas""), 0)",,,,2022-04-23 11:17:00,2022-04-23 11:17:00,0.177s,PASSED
+"setText(findTestObject(""Order/AddCustAndProduk/PilihProduk-FormJumlah""), ""3"", 0)",,,,2022-04-23 11:17:00,2022-04-23 11:17:02,1.810s,PASSED
+"tap(findTestObject(""Order/AddCustAndProduk/PillihProduk-SubmitKeranjang""), 0)",,,,2022-04-23 11:17:02,2022-04-23 11:17:03,1.297s,PASSED
+"tap(findTestObject(""Order/AddCustAndProduk/PilihProduk-BtnLanjut""), 0)",,,,2022-04-23 11:17:03,2022-04-23 11:17:03,0.212s,PASSED
+,,,,,,,
+Test Cases/CreateOrder/TC18_DetailingOrder,,,,2022-04-23 11:17:03,2022-04-23 11:17:10,7.088s,PASSED
+"setText(findTestObject(""Order/DetailOrder/Detail-SetNote""), ""Order 1.19"", 0)",,,,2022-04-23 11:17:04,2022-04-23 11:17:05,1.426s,PASSED
+"checkElement(findTestObject(""Order/DetailOrder/SetPriorityCheckBox""), 0)",,,,2022-04-23 11:17:05,2022-04-23 11:17:06,0.733s,PASSED
+"setText(findTestObject(""Order/DetailOrder/WaktuSelesai""), ""3"", 0)",,,,2022-04-23 11:17:06,2022-04-23 11:17:07,1.688s,PASSED
+metode = 2,,,,2022-04-23 11:17:07,2022-04-23 11:17:07,0.000s,PASSED
+if (metode == 1),,,,2022-04-23 11:17:07,2022-04-23 11:17:07,0.000s,PASSED
+if (metode == 2),,,,2022-04-23 11:17:07,2022-04-23 11:17:10,2.859s,PASSED
+,,,,,,,
+Test Cases/CreateOrder/TC19_ChangeStatusOrder,,,,2022-04-23 11:17:10,2022-04-23 11:17:20,9.247s,PASSED
+"setText(findTestObject(""Orderan List Page/Form-Cari Order""), ""Andi"", 0)",,,,2022-04-23 11:17:11,2022-04-23 11:17:15,3.973s,PASSED
+"tap(findTestObject(""Orderan List Page/ChooseFirstOrder""), 0)",,,,2022-04-23 11:17:15,2022-04-23 11:17:16,0.761s,PASSED
+"scrollToText(""Batalkan Orderan"", STOP_ON_FAILURE)",,,,2022-04-23 11:17:16,2022-04-23 11:17:19,3.078s,PASSED
+"tap(findTestObject(""Orderan List Page/Button-BatalkanOrder""), 0)",,,,2022-04-23 11:17:19,2022-04-23 11:17:19,0.838s,PASSED
+"tap(findTestObject(""Orderan List Page/Btn-ConfirmBatalOrder""), 0)",,,,2022-04-23 11:17:19,2022-04-23 11:17:20,0.180s,PASSED
+,,,,,,,
+Test Cases/CreateOrder/TC20_DeleteOrder,,,,2022-04-23 11:17:20,2022-04-23 11:17:29,9.378s,PASSED
+"tap(findTestObject(""Navigation/Nav Pesanan""), 0)",,,,2022-04-23 11:17:20,2022-04-23 11:17:21,0.964s,PASSED
+"setText(findTestObject(""Orderan List Page/Form-Cari Order""), ""Andi"", 0)",,,,2022-04-23 11:17:21,2022-04-23 11:17:25,3.908s,PASSED
+"tap(findTestObject(""Orderan List Page/ChooseFirstOrder""), 0)",,,,2022-04-23 11:17:25,2022-04-23 11:17:26,0.742s,PASSED
+"tap(findTestObject(""Orderan List Page/DtlOrder-Status-Proses""), 0)",,,,2022-04-23 11:17:26,2022-04-23 11:17:26,0.834s,PASSED
+"tap(findTestObject(""Orderan List Page/ConfirmChangeStratus""), 0)",,,,2022-04-23 11:17:26,2022-04-23 11:17:27,0.733s,PASSED
+"tap(findTestObject(""Orderan List Page/BackBtnTap""), 0)",,,,2022-04-23 11:17:27,2022-04-23 11:17:29,1.816s,PASSED
