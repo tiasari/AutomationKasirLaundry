@@ -1,0 +1,1507 @@
+[35m[Appium][39m Welcome to Appium v1.22.3
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 59029
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\user\AppData\Local\Temp\\Katalon\Appium\Temp1650698327116
+[35m[Appium][39m   chromedriverPort: 59030
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 59030
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:59029
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m7 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\user\\Downloads\\Laundry_POS_base.apk","noReset":true,"deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 12)","fullReset":false,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"12","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"emulator-5554","systemPort":59028},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\user\\Downloads\\Laundry_POS_base.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"emulator-5554 (sdk_gphone64_x86_64 - Android 12)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android","appium:platformVersion":"12","appium:systemPort":59028,"appium:udid":"emulator-5554"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[BaseDriver][39m Using local app 'C:\Users\user\Downloads\Laundry_POS_base.apk'
+[35m[ADB][39m Found 3 'build-tools' folders under 'C:\Users\user\AppData\Local\Android\Sdk' (newest first):
+[35m[ADB][39m     C:/Users/user/AppData/Local/Android/Sdk/build-tools/31.0.0
+[35m[ADB][39m     C:/Users/user/AppData/Local/Android/Sdk/build-tools/30.0.2
+[35m[ADB][39m     C:/Users/user/AppData/Local/Android/Sdk/build-tools/27.0.3
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\user\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: emulator-5554
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\user\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.cancreative.laundrypos'
+[35m[ADB][39m Main activity name: 'com.cancreative.laundrypos.ui.activity.SplashScreenActivity'
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\user\AppData\Local\Android\Sdk\build-tools\31.0.0\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m 'C:\Users\user\Downloads\Laundry_POS_base.apk' is signed with a non-default certificate
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.cancreative.laundrypos/com.cancreative.laundrypos.ui.activity.SplashScreenActivity and waiting for 'com.cancreative.laundrypos/com.cancreative.laundrypos.ui.activity.SplashScreenActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 85609cd3-e607-4147-a8c8-56c104ffeb01 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m7499 ms - 1294[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01 [39m[32m200[39m [90m21 ms - 1248[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01 [39m[32m200[39m [90m15 ms - 1248[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/screenshot [39m[32m200[39m [90m574 ms - 65032[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m18 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/appium/device/system_bars [39m[32m200[39m [90m79 ms - 145[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m12 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageButton' and @resource-id = 'com.cancreative.laundrypos:id/floating_button' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m1155 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01de-ffff-ffff00000036/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01de-ffff-ffff00000036/location [39m[32m200[39m [90m168 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01de-ffff-ffff00000036/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01de-ffff-ffff00000036"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01de-ffff-ffff00000036/click [39m[32m200[39m [90m46 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m17 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.EditText[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m996 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01df-ffff-ffff00000051/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01df-ffff-ffff00000051/location [39m[32m200[39m [90m13 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01df-ffff-ffff00000051/clear[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01df-ffff-ffff00000051"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01df-ffff-ffff00000051/clear [39m[32m200[39m [90m51 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01df-ffff-ffff00000051/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01df-ffff-ffff00000051","text":"Andi","value":["A","n","d","i"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01df-ffff-ffff00000051/value [39m[32m200[39m [90m1217 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m9 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.LinearLayout[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m538 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01df-ffff-ffff0000019b/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01df-ffff-ffff0000019b/location [39m[32m200[39m [90m11 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m9 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.LinearLayout[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m50 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01df-ffff-ffff0000019b/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01df-ffff-ffff0000019b/location [39m[32m200[39m [90m14 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01df-ffff-ffff0000019b/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01df-ffff-ffff0000019b"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01df-ffff-ffff0000019b/click [39m[32m200[39m [90m47 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m7 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Pilih Pelanggan' or . = 'Pilih Pelanggan') and @resource-id = 'com.cancreative.laundrypos:id/btn_pilih']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m454 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e0-ffff-ffff000001f3/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e0-ffff-ffff000001f3/location [39m[32m200[39m [90m9 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e0-ffff-ffff000001f3/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e0-ffff-ffff000001f3"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e0-ffff-ffff000001f3/click [39m[32m200[39m [90m51 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m7 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Pilih Produk' or . = 'Pilih Produk') and @resource-id = 'com.cancreative.laundrypos:id/toolbar_title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m676 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e1-ffff-ffff000001fe/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e1-ffff-ffff000001fe/location [39m[32m200[39m [90m16 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e1-ffff-ffff000001fe/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e1-ffff-ffff000001fe/text [39m[32m200[39m [90m13 ms - 75[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m7 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.LinearLayout[1]/android.widget.EditText[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m65 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e1-ffff-ffff00000207/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e1-ffff-ffff00000207/location [39m[32m200[39m [90m15 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e1-ffff-ffff00000207/clear[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e1-ffff-ffff00000207"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e1-ffff-ffff00000207/clear [39m[32m200[39m [90m12 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e1-ffff-ffff00000207/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e1-ffff-ffff00000207","text":"Tikar","value":["T","i","k","a","r"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e1-ffff-ffff00000207/value [39m[32m200[39m [90m1240 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m7 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.LinearLayout[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m573 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e1-ffff-ffff0000021b/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e1-ffff-ffff0000021b/location [39m[32m200[39m [90m12 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m7 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.LinearLayout[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m53 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e1-ffff-ffff0000021b/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e1-ffff-ffff0000021b/location [39m[32m200[39m [90m9 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e1-ffff-ffff0000021b/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e1-ffff-ffff0000021b"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e1-ffff-ffff0000021b/click [39m[32m200[39m [90m44 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m9 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.EditText[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m435 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e2-ffff-ffff00000254/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e2-ffff-ffff00000254/location [39m[32m200[39m [90m11 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e2-ffff-ffff00000254/clear[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e2-ffff-ffff00000254"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e2-ffff-ffff00000254/clear [39m[32m200[39m [90m20 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e2-ffff-ffff00000254/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e2-ffff-ffff00000254","text":"3","value":["3"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e2-ffff-ffff00000254/value [39m[32m200[39m [90m1206 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m7 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Tambah Ke Keranjang' or . = 'Tambah Ke Keranjang') and @resource-id = 'com.cancreative.laundrypos:id/btn_pilih']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m522 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e2-ffff-ffff0000025a/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e2-ffff-ffff0000025a/location [39m[32m200[39m [90m10 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e2-ffff-ffff0000025a/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e2-ffff-ffff0000025a"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e2-ffff-ffff0000025a/click [39m[32m200[39m [90m637 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m9 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Lanjut' or . = 'Lanjut') and @resource-id = 'com.cancreative.laundrypos:id/btn_lanjut']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m51 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e1-ffff-ffff00000214/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e1-ffff-ffff00000214/location [39m[32m200[39m [90m10 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e1-ffff-ffff00000214/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e1-ffff-ffff00000214"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e1-ffff-ffff00000214/click [39m[32m200[39m [90m39 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m11 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Catatan' or . = 'Catatan') and @resource-id = 'com.cancreative.laundrypos:id/edt_catatan']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m226 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e3-ffff-ffff00000272/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e3-ffff-ffff00000272/location [39m[32m200[39m [90m13 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e3-ffff-ffff00000272/clear[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e3-ffff-ffff00000272"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e3-ffff-ffff00000272/clear [39m[32m200[39m [90m14 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e3-ffff-ffff00000272/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e3-ffff-ffff00000272","text":"Order 1.19","value":["O","r","d","e","r"," ","1",".","1","9"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e3-ffff-ffff00000272/value [39m[32m200[39m [90m999 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m8 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.CheckBox' and @resource-id = 'com.cancreative.laundrypos:id/cb_prioritas' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m429 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e3-ffff-ffff00000275/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e3-ffff-ffff00000275/location [39m[32m200[39m [90m16 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e3-ffff-ffff00000275/attribute/checked[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e3-ffff-ffff00000275/attribute/checked [39m[32m200[39m [90m10 ms - 17[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"x":1,"y":1,"element":"00000000-0000-01e3-ffff-ffff00000275"}}]}[39m
+[35m[UiAutomator2][39m calling get location: 00000000-0000-01e3-ffff-ffff00000275
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/touch/perform [39m[32m200[39m [90m156 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m8 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.EditText[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m585 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e3-ffff-ffff00000278/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e3-ffff-ffff00000278/location [39m[32m200[39m [90m17 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e3-ffff-ffff00000278/clear[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e3-ffff-ffff00000278"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e3-ffff-ffff00000278/clear [39m[32m200[39m [90m17 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e3-ffff-ffff00000278/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e3-ffff-ffff00000278","text":"3","value":["3"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e3-ffff-ffff00000278/value [39m[32m200[39m [90m999 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m11 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Bayar Sekarang' or . = 'Bayar Sekarang') and @resource-id = 'com.cancreative.laundrypos:id/btn_bayar_sekarang']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m444 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e3-ffff-ffff0000028d/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e3-ffff-ffff0000028d/location [39m[32m200[39m [90m12 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e3-ffff-ffff0000028d/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e3-ffff-ffff0000028d"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e3-ffff-ffff0000028d/click [39m[32m200[39m [90m660 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m8 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Lunas' or . = 'Lunas') and @resource-id = 'com.cancreative.laundrypos:id/tv_lunas']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m41 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e4-ffff-ffff000002ae/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e4-ffff-ffff000002ae/location [39m[32m200[39m [90m17 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e4-ffff-ffff000002ae/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e4-ffff-ffff000002ae"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e4-ffff-ffff000002ae/click [39m[32m200[39m [90m33 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m6 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Bayar' or . = 'Bayar') and @resource-id = 'com.cancreative.laundrypos:id/btn_bayar']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m507 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e4-ffff-ffff000002b0/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e4-ffff-ffff000002b0/location [39m[32m200[39m [90m14 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e4-ffff-ffff000002b0/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e4-ffff-ffff000002b0"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e4-ffff-ffff000002b0/click [39m[32m200[39m [90m42 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m9 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'YA' or . = 'YA') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m593 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e5-ffff-ffff000002cb/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e5-ffff-ffff000002cb/location [39m[32m200[39m [90m10 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e5-ffff-ffff000002cb/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e5-ffff-ffff000002cb"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e5-ffff-ffff000002cb/click [39m[32m200[39m [90m44 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m16 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m334 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e7-ffff-ffff000002ec/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e7-ffff-ffff000002ec/location [39m[32m200[39m [90m17 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e7-ffff-ffff000002ec/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e7-ffff-ffff000002ec"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e7-ffff-ffff000002ec/click [39m[32m200[39m [90m72 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m15 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m808 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e7-ffff-ffff00000313/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e7-ffff-ffff00000313/location [39m[32m200[39m [90m13 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e7-ffff-ffff00000313/clear[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e7-ffff-ffff00000313"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e7-ffff-ffff00000313/clear [39m[32m200[39m [90m16 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e7-ffff-ffff00000313/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e7-ffff-ffff00000313","text":"Andi","value":["A","n","d","i"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e7-ffff-ffff00000313/value [39m[32m200[39m [90m2166 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m8 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/androidx.viewpager.widget.ViewPager[1]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.LinearLayout[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m580 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e7-ffff-ffff00000328/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e7-ffff-ffff00000328/location [39m[32m200[39m [90m13 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e7-ffff-ffff00000328/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e7-ffff-ffff00000328"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e7-ffff-ffff00000328/click [39m[32m200[39m [90m764 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m8 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Proses' or . = 'Proses') and @resource-id = 'com.cancreative.laundrypos:id/tv_proses']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m102 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e8-ffff-ffff0000035e/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e8-ffff-ffff0000035e/location [39m[32m200[39m [90m10 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e8-ffff-ffff0000035e/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e8-ffff-ffff0000035e"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e8-ffff-ffff0000035e/click [39m[32m200[39m [90m703 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m6 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'YA' or . = 'YA') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m35 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e9-ffff-ffff0000039c/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e9-ffff-ffff0000039c/location [39m[32m200[39m [90m11 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e9-ffff-ffff0000039c/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e9-ffff-ffff0000039c"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e9-ffff-ffff0000039c/click [39m[32m200[39m [90m57 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m6 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'com.cancreative.laundrypos:id/toolbar_back' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m510 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e8-ffff-ffff0000033e/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e8-ffff-ffff0000033e/location [39m[32m200[39m [90m12 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e8-ffff-ffff0000033e/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e8-ffff-ffff0000033e"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e8-ffff-ffff0000033e/click [39m[32m200[39m [90m46 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m8 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.HorizontalScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.TextView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m635 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e7-ffff-ffff0000031b/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e7-ffff-ffff0000031b/location [39m[32m200[39m [90m13 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e7-ffff-ffff0000031b/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01e7-ffff-ffff0000031b"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01e7-ffff-ffff0000031b/click [39m[32m200[39m [90m51 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m8 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m768 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m68 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m66 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m55 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m68 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m68 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m59 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m57 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m55 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m56 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m56 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m56 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m61 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m59 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m54 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m51 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m55 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m54 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m52 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m51 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m56 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m57 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m54 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m55 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m51 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m56 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m118 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m55 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m118 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m56 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m112 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m57 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m52 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m115 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m104 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m117 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m53 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m114 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m66 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m55 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m116 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m55 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m51 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m101 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m115 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m54 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m111 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m53 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m114 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m118 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m104 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m114 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m103 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m359 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m499 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m495 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m2729 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m102 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m125 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m2068 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m90 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m2409 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m53 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m559 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m490 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m94 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m101 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m97 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m99 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m100 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m95 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m353 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m121 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m567 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m105 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m98 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m335 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m411 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m56 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m67 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m107 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m77 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m57 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m55 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m123 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m52 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m55 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m54 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m56 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m121 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m104 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m116 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m97 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m96 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m99 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m121 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m54 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m240 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m544 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m91 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m77 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m85 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m85 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m80 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m81 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m116 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m81 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m92 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m79 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m79 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m82 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m78 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m83 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m99 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m91 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m85 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m182 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Cari Orderan' or . = 'Cari Orderan') and @resource-id = 'com.cancreative.laundrypos:id/edt_search']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m682 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01ef-ffff-ffff000003e6/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01ef-ffff-ffff000003e6/location [39m[32m200[39m [90m12 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01ef-ffff-ffff000003e6/clear[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01ef-ffff-ffff000003e6"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01ef-ffff-ffff000003e6/clear [39m[32m200[39m [90m12 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01ef-ffff-ffff000003e6/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01ef-ffff-ffff000003e6","text":"Andi","value":["A","n","d","i"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01ef-ffff-ffff000003e6/value [39m[32m200[39m [90m2416 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m9 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/androidx.viewpager.widget.ViewPager[1]/android.widget.LinearLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.LinearLayout[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m503 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01ef-ffff-ffff00000410/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01ef-ffff-ffff00000410/location [39m[32m200[39m [90m10 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01ef-ffff-ffff00000410/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01ef-ffff-ffff00000410"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01ef-ffff-ffff00000410/click [39m[32m200[39m [90m41 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/contexts [39m[32m200[39m [90m73 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/context [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Batalkan Orderan\"))"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element [39m[32m200[39m [90m3538 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m6 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'Batalkan Orderan' or . = 'Batalkan Orderan') and @resource-id = 'com.cancreative.laundrypos:id/btn_batal']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m58 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01f0-ffff-ffff0000045e/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01f0-ffff-ffff0000045e/location [39m[32m200[39m [90m10 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01f0-ffff-ffff0000045e/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01f0-ffff-ffff0000045e"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01f0-ffff-ffff0000045e/click [39m[32m200[39m [90m699 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/window/rect [39m[32m200[39m [90m6 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Button' and (@text = 'YA' or . = 'YA') and @resource-id = 'android:id/button1']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/elements [39m[32m200[39m [90m19 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01f1-ffff-ffff00000488/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (85609cd3)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 6746c206-d1cb-4cf4-bba6-749ab18f7f0f with 85609cd3-e607-4147-a8c8-56c104ffeb01
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01f1-ffff-ffff00000488/location [39m[32m200[39m [90m11 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01f1-ffff-ffff00000488/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-01f1-ffff-ffff00000488"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01/element/00000000-0000-01f1-ffff-ffff00000488/click [39m[32m200[39m [90m69 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 85609cd3-e607-4147-a8c8-56c104ffeb01 from our master session list
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/85609cd3-e607-4147-a8c8-56c104ffeb01 [39m[32m200[39m [90m416 ms - 14[39m
+[35m[HTTP][39m [90m[39m

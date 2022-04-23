@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Dump_ForRunOrder,,,,2022-04-23 13:56:48,2022-04-23 13:58:17,1m - 29.231s,FAILED
+,,,,,,,
+Test Cases/MR-Order/AddListPelanggan,,,,2022-04-23 13:57:26,2022-04-23 13:57:36,9.931s,FAILED
+"startExistingApplication(""com.cancreative.laundrypos"", STOP_ON_FAILURE)",,,,2022-04-23 13:57:26,2022-04-23 13:57:35,9.060s,PASSED
+"tap(findTestObject(""Req-Order/Produk/Nav-Menu""), 0)",,,,2022-04-23 13:57:35,2022-04-23 13:57:36,0.800s,FAILED
+,,,,,,,
+Test Cases/MR-Order/AddListProduk,,,,2022-04-23 13:58:06,2022-04-23 13:58:17,10.809s,FAILED
+"startExistingApplication(""com.cancreative.laundrypos"", STOP_ON_FAILURE)",,,,2022-04-23 13:58:06,2022-04-23 13:58:16,9.850s,PASSED
+"tap(findTestObject(""Req-Order/Produk/Nav-Menu""), 0)",,,,2022-04-23 13:58:16,2022-04-23 13:58:17,0.894s,FAILED

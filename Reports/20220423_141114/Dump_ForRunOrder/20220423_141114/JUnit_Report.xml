@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Dump_ForRunOrder" time="141.877" tests="2" failures="0" errors="0">
+   <testsuite name="Dump_ForRunOrder" tests="2" failures="0" errors="0" time="141.877" skipped="0" timestamp="2022-04-23 14:11:20" hostname="user - izzazainf" id="Test Suites/Dump_ForRunOrder">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\git\\AutomationKasirLaundry\\Reports\\20220423_141114\\Dump_ForRunOrder\\20220423_141114"/>
+         <property name="logFiles" value="C:\\Users\\user\\git\\AutomationKasirLaundry\\Reports\\20220423_141114\\Dump_ForRunOrder\\20220423_141114\\appium.log, C:\\Users\\user\\git\\AutomationKasirLaundry\\Reports\\20220423_141114\\Dump_ForRunOrder\\20220423_141114\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user - izzazainf"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="192.168.43.13"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/MR-Order/AddListPelanggan" time="101.018" classname="Test Cases/MR-Order/AddListPelanggan" status="PASSED">
+         <system-out><![CDATA[2022-04-23 14:11:20 - [TEST_CASE][PASSED] - Test Cases/MR-Order/AddListPelanggan: Test Cases/MR-Order/AddListPelanggan
+
+2022-04-23 14:11:22 - [TEST_STEP][PASSED] - startExistingApplication("com.cancreative.laundrypos", STOP_ON_FAILURE): Starting app with application ID: 'com.cancreative.laundrypos'
+
+2022-04-23 14:11:23 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-04-23 14:11:26 - [MESSAGE][INFO] - Appium server started on port 62,524
+
+2022-04-23 14:11:44 - [MESSAGE][PASSED] - Starting app with application ID: 'com.cancreative.laundrypos'
+
+2022-04-23 14:11:44 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Produk/Nav-Menu"), 0): Tapped on element 'Object Repository/Req-Order/Produk/Nav-Menu'
+
+2022-04-23 14:11:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:11:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Produk/Nav-Menu'
+
+2022-04-23 14:11:46 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Pelanggan/Menu-Pelanggan"), 0): Tapped on element 'Object Repository/Req-Order/Pelanggan/Menu-Pelanggan'
+
+2022-04-23 14:11:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:11:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Pelanggan/Menu-Pelanggan'
+
+2022-04-23 14:11:48 - [TEST_STEP][PASSED] - for ([i = 0, i < 10, (i++)]): Tapped on element 'Object Repository/Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan'
+
+2022-04-23 14:11:48 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Pelanggan/Btn-AddPelanggan"), 0): Tapped on element 'Object Repository/Req-Order/Pelanggan/Btn-AddPelanggan'
+
+2022-04-23 14:11:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:11:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Pelanggan/Btn-AddPelanggan'
+
+2022-04-23 14:11:49 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Nama"), nama[i], 0): Text 'Yusuf Pertiwi' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Nama'
+
+2022-04-23 14:11:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:11:51 - [MESSAGE][PASSED] - Text 'Yusuf Pertiwi' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Nama'
+
+2022-04-23 14:11:51 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Contact"), contact[i], 0): Text '0843212345532' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Contact'
+
+2022-04-23 14:11:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:11:52 - [MESSAGE][PASSED] - Text '0843212345532' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Contact'
+
+2022-04-23 14:11:52 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Alamat"), alamat[i], 0): Text 'Kepuk' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Alamat'
+
+2022-04-23 14:11:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:11:54 - [MESSAGE][PASSED] - Text 'Kepuk' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Alamat'
+
+2022-04-23 14:11:54 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan"), 0): Tapped on element 'Object Repository/Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan'
+
+2022-04-23 14:11:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:11:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan'
+
+2022-04-23 14:11:55 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Pelanggan/Btn-AddPelanggan"), 0): Tapped on element 'Object Repository/Req-Order/Pelanggan/Btn-AddPelanggan'
+
+2022-04-23 14:11:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:11:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Pelanggan/Btn-AddPelanggan'
+
+2022-04-23 14:11:57 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Nama"), nama[i], 0): Text 'Akbar Qosthory' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Nama'
+
+2022-04-23 14:11:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:11:59 - [MESSAGE][PASSED] - Text 'Akbar Qosthory' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Nama'
+
+2022-04-23 14:11:59 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Contact"), contact[i], 0): Text '0821234565432' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Contact'
+
+2022-04-23 14:11:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:00 - [MESSAGE][PASSED] - Text '0821234565432' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Contact'
+
+2022-04-23 14:12:00 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Alamat"), alamat[i], 0): Text 'Bringin' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Alamat'
+
+2022-04-23 14:12:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:02 - [MESSAGE][PASSED] - Text 'Bringin' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Alamat'
+
+2022-04-23 14:12:02 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan"), 0): Tapped on element 'Object Repository/Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan'
+
+2022-04-23 14:12:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan'
+
+2022-04-23 14:12:03 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Pelanggan/Btn-AddPelanggan"), 0): Tapped on element 'Object Repository/Req-Order/Pelanggan/Btn-AddPelanggan'
+
+2022-04-23 14:12:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Pelanggan/Btn-AddPelanggan'
+
+2022-04-23 14:12:05 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Nama"), nama[i], 0): Text 'Surya Labas' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Nama'
+
+2022-04-23 14:12:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:06 - [MESSAGE][PASSED] - Text 'Surya Labas' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Nama'
+
+2022-04-23 14:12:06 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Contact"), contact[i], 0): Text '084321345433' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Contact'
+
+2022-04-23 14:12:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:08 - [MESSAGE][PASSED] - Text '084321345433' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Contact'
+
+2022-04-23 14:12:08 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Alamat"), alamat[i], 0): Text 'Pekalongan' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Alamat'
+
+2022-04-23 14:12:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:10 - [MESSAGE][PASSED] - Text 'Pekalongan' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Alamat'
+
+2022-04-23 14:12:10 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan"), 0): Tapped on element 'Object Repository/Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan'
+
+2022-04-23 14:12:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan'
+
+2022-04-23 14:12:10 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Pelanggan/Btn-AddPelanggan"), 0): Tapped on element 'Object Repository/Req-Order/Pelanggan/Btn-AddPelanggan'
+
+2022-04-23 14:12:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Pelanggan/Btn-AddPelanggan'
+
+2022-04-23 14:12:12 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Nama"), nama[i], 0): Text 'Jhon Deviyanto' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Nama'
+
+2022-04-23 14:12:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:14 - [MESSAGE][PASSED] - Text 'Jhon Deviyanto' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Nama'
+
+2022-04-23 14:12:14 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Contact"), contact[i], 0): Text '085345643214' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Contact'
+
+2022-04-23 14:12:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:16 - [MESSAGE][PASSED] - Text '085345643214' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Contact'
+
+2022-04-23 14:12:16 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Alamat"), alamat[i], 0): Text 'Ngasem' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Alamat'
+
+2022-04-23 14:12:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:17 - [MESSAGE][PASSED] - Text 'Ngasem' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Alamat'
+
+2022-04-23 14:12:17 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan"), 0): Tapped on element 'Object Repository/Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan'
+
+2022-04-23 14:12:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan'
+
+2022-04-23 14:12:18 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Pelanggan/Btn-AddPelanggan"), 0): Tapped on element 'Object Repository/Req-Order/Pelanggan/Btn-AddPelanggan'
+
+2022-04-23 14:12:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Pelanggan/Btn-AddPelanggan'
+
+2022-04-23 14:12:19 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Nama"), nama[i], 0): Text 'Rahardianto Mufti' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Nama'
+
+2022-04-23 14:12:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:21 - [MESSAGE][PASSED] - Text 'Rahardianto Mufti' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Nama'
+
+2022-04-23 14:12:21 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Contact"), contact[i], 0): Text '081345654323' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Contact'
+
+2022-04-23 14:12:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:23 - [MESSAGE][PASSED] - Text '081345654323' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Contact'
+
+2022-04-23 14:12:23 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Alamat"), alamat[i], 0): Text 'Wonorejo' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Alamat'
+
+2022-04-23 14:12:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:24 - [MESSAGE][PASSED] - Text 'Wonorejo' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Alamat'
+
+2022-04-23 14:12:24 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan"), 0): Tapped on element 'Object Repository/Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan'
+
+2022-04-23 14:12:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan'
+
+2022-04-23 14:12:25 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Pelanggan/Btn-AddPelanggan"), 0): Tapped on element 'Object Repository/Req-Order/Pelanggan/Btn-AddPelanggan'
+
+2022-04-23 14:12:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Pelanggan/Btn-AddPelanggan'
+
+2022-04-23 14:12:26 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Nama"), nama[i], 0): Text 'Chaerul Ibidemu' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Nama'
+
+2022-04-23 14:12:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:28 - [MESSAGE][PASSED] - Text 'Chaerul Ibidemu' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Nama'
+
+2022-04-23 14:12:28 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Contact"), contact[i], 0): Text '089453423345' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Contact'
+
+2022-04-23 14:12:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:30 - [MESSAGE][PASSED] - Text '089453423345' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Contact'
+
+2022-04-23 14:12:30 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Alamat"), alamat[i], 0): Text 'Wonorejo' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Alamat'
+
+2022-04-23 14:12:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:32 - [MESSAGE][PASSED] - Text 'Wonorejo' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Alamat'
+
+2022-04-23 14:12:32 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan"), 0): Tapped on element 'Object Repository/Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan'
+
+2022-04-23 14:12:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan'
+
+2022-04-23 14:12:32 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Pelanggan/Btn-AddPelanggan"), 0): Tapped on element 'Object Repository/Req-Order/Pelanggan/Btn-AddPelanggan'
+
+2022-04-23 14:12:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Pelanggan/Btn-AddPelanggan'
+
+2022-04-23 14:12:34 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Nama"), nama[i], 0): Text 'Revi Caroline' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Nama'
+
+2022-04-23 14:12:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:36 - [MESSAGE][PASSED] - Text 'Revi Caroline' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Nama'
+
+2022-04-23 14:12:36 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Contact"), contact[i], 0): Text '081123245544' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Contact'
+
+2022-04-23 14:12:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:37 - [MESSAGE][PASSED] - Text '081123245544' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Contact'
+
+2022-04-23 14:12:37 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Alamat"), alamat[i], 0): Text 'Bandengan' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Alamat'
+
+2022-04-23 14:12:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:39 - [MESSAGE][PASSED] - Text 'Bandengan' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Alamat'
+
+2022-04-23 14:12:39 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan"), 0): Tapped on element 'Object Repository/Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan'
+
+2022-04-23 14:12:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan'
+
+2022-04-23 14:12:39 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Pelanggan/Btn-AddPelanggan"), 0): Tapped on element 'Object Repository/Req-Order/Pelanggan/Btn-AddPelanggan'
+
+2022-04-23 14:12:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Pelanggan/Btn-AddPelanggan'
+
+2022-04-23 14:12:41 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Nama"), nama[i], 0): Text 'Reynard Parhorasan' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Nama'
+
+2022-04-23 14:12:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:43 - [MESSAGE][PASSED] - Text 'Reynard Parhorasan' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Nama'
+
+2022-04-23 14:12:43 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Contact"), contact[i], 0): Text '089342343242' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Contact'
+
+2022-04-23 14:12:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:44 - [MESSAGE][PASSED] - Text '089342343242' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Contact'
+
+2022-04-23 14:12:44 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Alamat"), alamat[i], 0): Text 'Bangsri' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Alamat'
+
+2022-04-23 14:12:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:46 - [MESSAGE][PASSED] - Text 'Bangsri' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Alamat'
+
+2022-04-23 14:12:46 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan"), 0): Tapped on element 'Object Repository/Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan'
+
+2022-04-23 14:12:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan'
+
+2022-04-23 14:12:46 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Pelanggan/Btn-AddPelanggan"), 0): Tapped on element 'Object Repository/Req-Order/Pelanggan/Btn-AddPelanggan'
+
+2022-04-23 14:12:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Pelanggan/Btn-AddPelanggan'
+
+2022-04-23 14:12:48 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Nama"), nama[i], 0): Text 'Muhammad Halida' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Nama'
+
+2022-04-23 14:12:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:50 - [MESSAGE][PASSED] - Text 'Muhammad Halida' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Nama'
+
+2022-04-23 14:12:50 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Contact"), contact[i], 0): Text '084512476783' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Contact'
+
+2022-04-23 14:12:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:51 - [MESSAGE][PASSED] - Text '084512476783' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Contact'
+
+2022-04-23 14:12:51 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Alamat"), alamat[i], 0): Text 'Bandungharjo' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Alamat'
+
+2022-04-23 14:12:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:53 - [MESSAGE][PASSED] - Text 'Bandungharjo' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Alamat'
+
+2022-04-23 14:12:53 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan"), 0): Tapped on element 'Object Repository/Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan'
+
+2022-04-23 14:12:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan'
+
+2022-04-23 14:12:54 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Pelanggan/Btn-AddPelanggan"), 0): Tapped on element 'Object Repository/Req-Order/Pelanggan/Btn-AddPelanggan'
+
+2022-04-23 14:12:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Pelanggan/Btn-AddPelanggan'
+
+2022-04-23 14:12:55 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Nama"), nama[i], 0): Text 'Andi Beckley Diva' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Nama'
+
+2022-04-23 14:12:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:57 - [MESSAGE][PASSED] - Text 'Andi Beckley Diva' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Nama'
+
+2022-04-23 14:12:57 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Contact"), contact[i], 0): Text '082456845342' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Contact'
+
+2022-04-23 14:12:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:12:59 - [MESSAGE][PASSED] - Text '082456845342' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Contact'
+
+2022-04-23 14:12:59 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Pelanggan/Plg-Form-Alamat"), alamat[i], 0): Text 'Banjaragung' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Alamat'
+
+2022-04-23 14:12:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:13:01 - [MESSAGE][PASSED] - Text 'Banjaragung' has been set to element 'Object Repository/Req-Order/Pelanggan/Plg-Form-Alamat'
+
+2022-04-23 14:13:01 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan"), 0): Tapped on element 'Object Repository/Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan'
+
+2022-04-23 14:13:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:13:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Pelanggan/Plg-Form-btn-TambahPelanggan']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/MR-Order/AddListProduk" time="40.235" classname="Test Cases/MR-Order/AddListProduk" status="PASSED">
+         <system-out><![CDATA[2022-04-23 14:13:01 - [TEST_CASE][PASSED] - Test Cases/MR-Order/AddListProduk: Test Cases/MR-Order/AddListProduk
+
+2022-04-23 14:13:02 - [TEST_STEP][PASSED] - startExistingApplication("com.cancreative.laundrypos", STOP_ON_FAILURE): Starting app with application ID: 'com.cancreative.laundrypos'
+
+2022-04-23 14:13:14 - [MESSAGE][PASSED] - Starting app with application ID: 'com.cancreative.laundrypos'
+
+2022-04-23 14:13:14 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Produk/Nav-Menu"), 0): Tapped on element 'Object Repository/Req-Order/Produk/Nav-Menu'
+
+2022-04-23 14:13:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:13:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Produk/Nav-Menu'
+
+2022-04-23 14:13:17 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Produk/Menu-Produk"), 0): Tapped on element 'Object Repository/Req-Order/Produk/Menu-Produk'
+
+2022-04-23 14:13:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:13:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Produk/Menu-Produk'
+
+2022-04-23 14:13:17 - [TEST_STEP][PASSED] - for ([i = 0, i < 3, (i++)]): Tapped on element 'Object Repository/Req-Order/Produk/Submit-Tambah-Produk'
+
+2022-04-23 14:13:17 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Produk/Btn-AddProduk"), 0): Tapped on element 'Object Repository/Req-Order/Produk/Btn-AddProduk'
+
+2022-04-23 14:13:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:13:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Produk/Btn-AddProduk'
+
+2022-04-23 14:13:19 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Produk/TmbhPdk-Nama"), nama[i], 0): Text 'Tikar' has been set to element 'Object Repository/Req-Order/Produk/TmbhPdk-Nama'
+
+2022-04-23 14:13:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:13:21 - [MESSAGE][PASSED] - Text 'Tikar' has been set to element 'Object Repository/Req-Order/Produk/TmbhPdk-Nama'
+
+2022-04-23 14:13:21 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Produk/TmbhPdk-Deskripsi"), desc[i], 0): Text 'Desc Tikar' has been set to element 'Object Repository/Req-Order/Produk/TmbhPdk-Deskripsi'
+
+2022-04-23 14:13:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:13:22 - [MESSAGE][PASSED] - Text 'Desc Tikar' has been set to element 'Object Repository/Req-Order/Produk/TmbhPdk-Deskripsi'
+
+2022-04-23 14:13:22 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Produk/TmbhPdk-Harga"), harga[i], 0): Text '25000' has been set to element 'Object Repository/Req-Order/Produk/TmbhPdk-Harga'
+
+2022-04-23 14:13:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:13:24 - [MESSAGE][PASSED] - Text '25000' has been set to element 'Object Repository/Req-Order/Produk/TmbhPdk-Harga'
+
+2022-04-23 14:13:24 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Produk/Radio-Satuan-Kg"), 0): Tapped on element 'Object Repository/Req-Order/Produk/Radio-Satuan-Kg'
+
+2022-04-23 14:13:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:13:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Produk/Radio-Satuan-Kg'
+
+2022-04-23 14:13:24 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Produk/Submit-Tambah-Produk"), 0): Tapped on element 'Object Repository/Req-Order/Produk/Submit-Tambah-Produk'
+
+2022-04-23 14:13:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:13:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Produk/Submit-Tambah-Produk'
+
+2022-04-23 14:13:25 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Produk/Btn-AddProduk"), 0): Tapped on element 'Object Repository/Req-Order/Produk/Btn-AddProduk'
+
+2022-04-23 14:13:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:13:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Produk/Btn-AddProduk'
+
+2022-04-23 14:13:29 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Produk/TmbhPdk-Nama"), nama[i], 0): Text 'Selimut' has been set to element 'Object Repository/Req-Order/Produk/TmbhPdk-Nama'
+
+2022-04-23 14:13:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:13:30 - [MESSAGE][PASSED] - Text 'Selimut' has been set to element 'Object Repository/Req-Order/Produk/TmbhPdk-Nama'
+
+2022-04-23 14:13:30 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Produk/TmbhPdk-Deskripsi"), desc[i], 0): Text 'Desc Selimut ' has been set to element 'Object Repository/Req-Order/Produk/TmbhPdk-Deskripsi'
+
+2022-04-23 14:13:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:13:31 - [MESSAGE][PASSED] - Text 'Desc Selimut ' has been set to element 'Object Repository/Req-Order/Produk/TmbhPdk-Deskripsi'
+
+2022-04-23 14:13:31 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Produk/TmbhPdk-Harga"), harga[i], 0): Text '17500' has been set to element 'Object Repository/Req-Order/Produk/TmbhPdk-Harga'
+
+2022-04-23 14:13:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:13:33 - [MESSAGE][PASSED] - Text '17500' has been set to element 'Object Repository/Req-Order/Produk/TmbhPdk-Harga'
+
+2022-04-23 14:13:33 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Produk/Radio-Satuan-Kg"), 0): Tapped on element 'Object Repository/Req-Order/Produk/Radio-Satuan-Kg'
+
+2022-04-23 14:13:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:13:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Produk/Radio-Satuan-Kg'
+
+2022-04-23 14:13:33 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Produk/Submit-Tambah-Produk"), 0): Tapped on element 'Object Repository/Req-Order/Produk/Submit-Tambah-Produk'
+
+2022-04-23 14:13:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:13:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Produk/Submit-Tambah-Produk'
+
+2022-04-23 14:13:34 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Produk/Btn-AddProduk"), 0): Tapped on element 'Object Repository/Req-Order/Produk/Btn-AddProduk'
+
+2022-04-23 14:13:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:13:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Produk/Btn-AddProduk'
+
+2022-04-23 14:13:35 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Produk/TmbhPdk-Nama"), nama[i], 0): Text 'Sprei' has been set to element 'Object Repository/Req-Order/Produk/TmbhPdk-Nama'
+
+2022-04-23 14:13:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:13:37 - [MESSAGE][PASSED] - Text 'Sprei' has been set to element 'Object Repository/Req-Order/Produk/TmbhPdk-Nama'
+
+2022-04-23 14:13:37 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Produk/TmbhPdk-Deskripsi"), desc[i], 0): Text 'Desc Sprei' has been set to element 'Object Repository/Req-Order/Produk/TmbhPdk-Deskripsi'
+
+2022-04-23 14:13:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:13:39 - [MESSAGE][PASSED] - Text 'Desc Sprei' has been set to element 'Object Repository/Req-Order/Produk/TmbhPdk-Deskripsi'
+
+2022-04-23 14:13:39 - [TEST_STEP][PASSED] - setText(findTestObject("Req-Order/Produk/TmbhPdk-Harga"), harga[i], 0): Text '20000' has been set to element 'Object Repository/Req-Order/Produk/TmbhPdk-Harga'
+
+2022-04-23 14:13:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:13:40 - [MESSAGE][PASSED] - Text '20000' has been set to element 'Object Repository/Req-Order/Produk/TmbhPdk-Harga'
+
+2022-04-23 14:13:40 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Produk/Radio-Satuan-Kg"), 0): Tapped on element 'Object Repository/Req-Order/Produk/Radio-Satuan-Kg'
+
+2022-04-23 14:13:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:13:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Produk/Radio-Satuan-Kg'
+
+2022-04-23 14:13:41 - [TEST_STEP][PASSED] - tap(findTestObject("Req-Order/Produk/Submit-Tambah-Produk"), 0): Tapped on element 'Object Repository/Req-Order/Produk/Submit-Tambah-Produk'
+
+2022-04-23 14:13:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:13:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Req-Order/Produk/Submit-Tambah-Produk']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-23 14:11:20 - [TEST_SUITE][PASSED] - Dump_ForRunOrder: Test Cases/MR-Order/AddListProduk]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

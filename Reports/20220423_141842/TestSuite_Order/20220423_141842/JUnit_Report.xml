@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite_Order" time="78.133" tests="4" failures="0" errors="0">
+   <testsuite name="TestSuite_Order" tests="4" failures="0" errors="0" time="78.133" skipped="0" timestamp="2022-04-23 14:18:45" hostname="user - izzazainf" id="Test Suites/TestSuite_Order">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 12)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\git\\AutomationKasirLaundry\\Reports\\20220423_141842\\TestSuite_Order\\20220423_141842"/>
+         <property name="logFiles" value="C:\\Users\\user\\git\\AutomationKasirLaundry\\Reports\\20220423_141842\\TestSuite_Order\\20220423_141842\\appium.log, C:\\Users\\user\\git\\AutomationKasirLaundry\\Reports\\20220423_141842\\TestSuite_Order\\20220423_141842\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user - izzazainf"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.3.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone64_x86_64"/>
+         <property name="hostAddress" value="192.168.43.13"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone64_x86_64 - Android 12)"/>
+         <property name="deviceOSVersion" value="12"/>
+      </properties>
+      <testcase name="Test Cases/CreateOrder/TC17_CreateOrder" time="26.656" classname="Test Cases/CreateOrder/TC17_CreateOrder" status="PASSED">
+         <system-out><![CDATA[2022-04-23 14:18:46 - [TEST_CASE][PASSED] - Test Cases/CreateOrder/TC17_CreateOrder: Test Cases/CreateOrder/TC17_CreateOrder
+
+2022-04-23 14:18:46 - [TEST_STEP][PASSED] - startApplication("C:\Users\user\Downloads\Laundry_POS_base.apk", false): Started app at: 'C:\Users\user\Downloads\Laundry_POS_base.apk'
+
+2022-04-23 14:18:47 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-04-23 14:18:49 - [MESSAGE][INFO] - Appium server started on port 59,029
+
+2022-04-23 14:19:00 - [MESSAGE][PASSED] - Started app at: 'C:\Users\user\Downloads\Laundry_POS_base.apk'
+
+2022-04-23 14:19:00 - [TEST_STEP][PASSED] - tap(findTestObject("Navigation/NavAdd"), 0): Tapped on element 'Object Repository/Navigation/NavAdd'
+
+2022-04-23 14:19:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navigation/NavAdd'
+
+2022-04-23 14:19:02 - [TEST_STEP][PASSED] - setText(findTestObject("Order/AddCustAndProduk/Order-SearchPelangganForm"), "Andi", 0): Text 'Andi' has been set to element 'Object Repository/Order/AddCustAndProduk/Order-SearchPelangganForm'
+
+2022-04-23 14:19:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:04 - [MESSAGE][PASSED] - Text 'Andi' has been set to element 'Object Repository/Order/AddCustAndProduk/Order-SearchPelangganForm'
+
+2022-04-23 14:19:04 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Order/AddCustAndProduk/Choose Pelanggan Teratas"), 0): Element 'Object Repository/Order/AddCustAndProduk/Choose Pelanggan Teratas' is exist
+
+2022-04-23 14:19:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:05 - [MESSAGE][PASSED] - Element 'Object Repository/Order/AddCustAndProduk/Choose Pelanggan Teratas' is exist
+
+2022-04-23 14:19:05 - [TEST_STEP][PASSED] - tap(findTestObject("Order/AddCustAndProduk/Choose Pelanggan Teratas"), 0): Tapped on element 'Object Repository/Order/AddCustAndProduk/Choose Pelanggan Teratas'
+
+2022-04-23 14:19:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Order/AddCustAndProduk/Choose Pelanggan Teratas'
+
+2022-04-23 14:19:05 - [TEST_STEP][PASSED] - tap(findTestObject("Order/AddCustAndProduk/Btn-pilihPelanggan"), 0): Tapped on element 'Object Repository/Order/AddCustAndProduk/Btn-pilihPelanggan'
+
+2022-04-23 14:19:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Order/AddCustAndProduk/Btn-pilihPelanggan'
+
+2022-04-23 14:19:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Order/AddCustAndProduk/PilihProduk-Tittle"), "Pilih Produk"): Actual text and expected text of test object 'Object Repository/Order/AddCustAndProduk/PilihProduk-Tittle' are matched.
+
+2022-04-23 14:19:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Order/AddCustAndProduk/PilihProduk-Tittle' are matched.
+
+2022-04-23 14:19:07 - [TEST_STEP][PASSED] - setText(findTestObject("Order/AddCustAndProduk/PilihProduk-SearchBox"), "Tikar", 0): Text 'Tikar' has been set to element 'Object Repository/Order/AddCustAndProduk/PilihProduk-SearchBox'
+
+2022-04-23 14:19:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:08 - [MESSAGE][PASSED] - Text 'Tikar' has been set to element 'Object Repository/Order/AddCustAndProduk/PilihProduk-SearchBox'
+
+2022-04-23 14:19:08 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Order/AddCustAndProduk/Select Produk, teratas"), 0): Element 'Object Repository/Order/AddCustAndProduk/Select Produk, teratas' is exist
+
+2022-04-23 14:19:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:09 - [MESSAGE][PASSED] - Element 'Object Repository/Order/AddCustAndProduk/Select Produk, teratas' is exist
+
+2022-04-23 14:19:09 - [TEST_STEP][PASSED] - tap(findTestObject("Order/AddCustAndProduk/Select Produk, teratas"), 0): Tapped on element 'Object Repository/Order/AddCustAndProduk/Select Produk, teratas'
+
+2022-04-23 14:19:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Order/AddCustAndProduk/Select Produk, teratas'
+
+2022-04-23 14:19:09 - [TEST_STEP][PASSED] - setText(findTestObject("Order/AddCustAndProduk/PilihProduk-FormJumlah"), "3", 0): Text '3' has been set to element 'Object Repository/Order/AddCustAndProduk/PilihProduk-FormJumlah'
+
+2022-04-23 14:19:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:11 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/Order/AddCustAndProduk/PilihProduk-FormJumlah'
+
+2022-04-23 14:19:11 - [TEST_STEP][PASSED] - tap(findTestObject("Order/AddCustAndProduk/PillihProduk-SubmitKeranjang"), 0): Tapped on element 'Object Repository/Order/AddCustAndProduk/PillihProduk-SubmitKeranjang'
+
+2022-04-23 14:19:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Order/AddCustAndProduk/PillihProduk-SubmitKeranjang'
+
+2022-04-23 14:19:12 - [TEST_STEP][PASSED] - tap(findTestObject("Order/AddCustAndProduk/PilihProduk-BtnLanjut"), 0): Tapped on element 'Object Repository/Order/AddCustAndProduk/PilihProduk-BtnLanjut'
+
+2022-04-23 14:19:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Order/AddCustAndProduk/PilihProduk-BtnLanjut']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateOrder/TC18_DetailingOrder" time="7.466" classname="Test Cases/CreateOrder/TC18_DetailingOrder" status="PASSED">
+         <system-out><![CDATA[2022-04-23 14:19:12 - [TEST_CASE][PASSED] - Test Cases/CreateOrder/TC18_DetailingOrder: Test Cases/CreateOrder/TC18_DetailingOrder
+
+2022-04-23 14:19:13 - [TEST_STEP][PASSED] - setText(findTestObject("Order/DetailOrder/Detail-SetNote"), "Order 1.19", 0): Text 'Order 1.19' has been set to element 'Object Repository/Order/DetailOrder/Detail-SetNote'
+
+2022-04-23 14:19:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:14 - [MESSAGE][PASSED] - Text 'Order 1.19' has been set to element 'Object Repository/Order/DetailOrder/Detail-SetNote'
+
+2022-04-23 14:19:14 - [TEST_STEP][PASSED] - checkElement(findTestObject("Order/DetailOrder/SetPriorityCheckBox"), 0): Element 'Object Repository/Order/DetailOrder/SetPriorityCheckBox' is checked
+
+2022-04-23 14:19:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:15 - [MESSAGE][PASSED] - Element 'Object Repository/Order/DetailOrder/SetPriorityCheckBox' is checked
+
+2022-04-23 14:19:15 - [TEST_STEP][PASSED] - setText(findTestObject("Order/DetailOrder/WaktuSelesai"), "3", 0): Text '3' has been set to element 'Object Repository/Order/DetailOrder/WaktuSelesai'
+
+2022-04-23 14:19:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:17 - [MESSAGE][PASSED] - Text '3' has been set to element 'Object Repository/Order/DetailOrder/WaktuSelesai'
+
+2022-04-23 14:19:17 - [TEST_STEP][PASSED] - metode = 2: null
+
+2022-04-23 14:19:17 - [TEST_STEP][PASSED] - if (metode == 1): null
+
+2022-04-23 14:19:17 - [TEST_STEP][PASSED] - if (metode == 2): Tapped on element 'Object Repository/Order/DetailOrder/ByrSekarang-CnfrmDta-YES'
+
+2022-04-23 14:19:17 - [TEST_STEP][PASSED] - tap(findTestObject("Order/DetailOrder/Btn-BayarSekarang"), 0): Tapped on element 'Object Repository/Order/DetailOrder/Btn-BayarSekarang'
+
+2022-04-23 14:19:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Order/DetailOrder/Btn-BayarSekarang'
+
+2022-04-23 14:19:18 - [TEST_STEP][PASSED] - tap(findTestObject("Order/DetailOrder/ByrSekarang-LunasAuto"), 0): Tapped on element 'Object Repository/Order/DetailOrder/ByrSekarang-LunasAuto'
+
+2022-04-23 14:19:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Order/DetailOrder/ByrSekarang-LunasAuto'
+
+2022-04-23 14:19:18 - [TEST_STEP][PASSED] - tap(findTestObject("Order/DetailOrder/ByrSekarang-BtnBayar"), 0): Tapped on element 'Object Repository/Order/DetailOrder/ByrSekarang-BtnBayar'
+
+2022-04-23 14:19:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Order/DetailOrder/ByrSekarang-BtnBayar'
+
+2022-04-23 14:19:19 - [TEST_STEP][PASSED] - tap(findTestObject("Order/DetailOrder/ByrSekarang-CnfrmDta-YES"), 0): Tapped on element 'Object Repository/Order/DetailOrder/ByrSekarang-CnfrmDta-YES'
+
+2022-04-23 14:19:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Order/DetailOrder/ByrSekarang-CnfrmDta-YES']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateOrder/TC19_ChangeStatusOrder" time="7.899" classname="Test Cases/CreateOrder/TC19_ChangeStatusOrder" status="PASSED">
+         <system-out><![CDATA[2022-04-23 14:19:20 - [TEST_CASE][PASSED] - Test Cases/CreateOrder/TC19_ChangeStatusOrder: Test Cases/CreateOrder/TC19_ChangeStatusOrder
+
+2022-04-23 14:19:21 - [TEST_STEP][PASSED] - tap(findTestObject("Navigation/Nav Pesanan"), 0): Tapped on element 'Object Repository/Navigation/Nav Pesanan'
+
+2022-04-23 14:19:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Navigation/Nav Pesanan'
+
+2022-04-23 14:19:21 - [TEST_STEP][PASSED] - setText(findTestObject("Orderan List Page/Form-Cari Order"), "Andi", 0): Text 'Andi' has been set to element 'Object Repository/Orderan List Page/Form-Cari Order'
+
+2022-04-23 14:19:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:24 - [MESSAGE][PASSED] - Text 'Andi' has been set to element 'Object Repository/Orderan List Page/Form-Cari Order'
+
+2022-04-23 14:19:24 - [TEST_STEP][PASSED] - tap(findTestObject("Orderan List Page/ChooseFirstOrder"), 0): Tapped on element 'Object Repository/Orderan List Page/ChooseFirstOrder'
+
+2022-04-23 14:19:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Orderan List Page/ChooseFirstOrder'
+
+2022-04-23 14:19:26 - [TEST_STEP][PASSED] - tap(findTestObject("Orderan List Page/DtlOrder-Status-Proses"), 0): Tapped on element 'Object Repository/Orderan List Page/DtlOrder-Status-Proses'
+
+2022-04-23 14:19:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Orderan List Page/DtlOrder-Status-Proses'
+
+2022-04-23 14:19:27 - [TEST_STEP][PASSED] - tap(findTestObject("Orderan List Page/ConfirmChangeStratus"), 0): Tapped on element 'Object Repository/Orderan List Page/ConfirmChangeStratus'
+
+2022-04-23 14:19:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Orderan List Page/ConfirmChangeStratus'
+
+2022-04-23 14:19:27 - [TEST_STEP][PASSED] - tap(findTestObject("Orderan List Page/BackBtnTap"), 0): Tapped on element 'Object Repository/Orderan List Page/BackBtnTap'
+
+2022-04-23 14:19:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Orderan List Page/BackBtnTap']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateOrder/TC20_DeleteOrderan" time="35.734" classname="Test Cases/CreateOrder/TC20_DeleteOrderan" status="PASSED">
+         <system-out><![CDATA[2022-04-23 14:19:28 - [TEST_CASE][PASSED] - Test Cases/CreateOrder/TC20_DeleteOrderan: Test Cases/CreateOrder/TC20_DeleteOrderan
+
+2022-04-23 14:19:28 - [TEST_STEP][PASSED] - tap(findTestObject("Orderan List Page/Nav-Order-Diproses"), 0): Tapped on element 'Object Repository/Orderan List Page/Nav-Order-Diproses'
+
+2022-04-23 14:19:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Orderan List Page/Nav-Order-Diproses'
+
+2022-04-23 14:19:29 - [TEST_STEP][PASSED] - setText(findTestObject("Orderan List Page/Form-Cari Order"), "Andi", 0): Text 'Andi' has been set to element 'Object Repository/Orderan List Page/Form-Cari Order'
+
+2022-04-23 14:19:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:57 - [MESSAGE][PASSED] - Text 'Andi' has been set to element 'Object Repository/Orderan List Page/Form-Cari Order'
+
+2022-04-23 14:19:57 - [TEST_STEP][PASSED] - tap(findTestObject("Orderan List Page/ChooseFirstOrder"), 0): Tapped on element 'Object Repository/Orderan List Page/ChooseFirstOrder'
+
+2022-04-23 14:19:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:19:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Orderan List Page/ChooseFirstOrder'
+
+2022-04-23 14:19:58 - [TEST_STEP][PASSED] - scrollToText("Batalkan Orderan", STOP_ON_FAILURE): Scrolling to text 'Batalkan Orderan' successfully
+
+2022-04-23 14:20:02 - [MESSAGE][PASSED] - Scrolling to text 'Batalkan Orderan' successfully
+
+2022-04-23 14:20:02 - [TEST_STEP][PASSED] - tap(findTestObject("Orderan List Page/Button-BatalkanOrder"), 0): Tapped on element 'Object Repository/Orderan List Page/Button-BatalkanOrder'
+
+2022-04-23 14:20:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:20:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Orderan List Page/Button-BatalkanOrder'
+
+2022-04-23 14:20:03 - [TEST_STEP][PASSED] - tap(findTestObject("Orderan List Page/Btn-ConfirmBatalOrder"), 0): Tapped on element 'Object Repository/Orderan List Page/Btn-ConfirmBatalOrder'
+
+2022-04-23 14:20:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-23 14:20:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Orderan List Page/Btn-ConfirmBatalOrder']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-23 14:18:45 - [TEST_SUITE][PASSED] - TestSuite_Order: Test Cases/CreateOrder/TC20_DeleteOrderan]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

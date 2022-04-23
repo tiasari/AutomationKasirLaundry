@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Dump_ForRunOrder,,,,2022-04-23 14:11:20,2022-04-23 14:13:42,2m - 21.877s,PASSED
+,,,,,,,
+Test Cases/MR-Order/AddListPelanggan,,,,2022-04-23 14:11:20,2022-04-23 14:13:01,1m - 41.018s,PASSED
+"startExistingApplication(""com.cancreative.laundrypos"", STOP_ON_FAILURE)",,,,2022-04-23 14:11:22,2022-04-23 14:11:44,22.654s,PASSED
+"tap(findTestObject(""Req-Order/Produk/Nav-Menu""), 0)",,,,2022-04-23 14:11:44,2022-04-23 14:11:46,1.992s,PASSED
+"tap(findTestObject(""Req-Order/Pelanggan/Menu-Pelanggan""), 0)",,,,2022-04-23 14:11:46,2022-04-23 14:11:48,1.534s,PASSED
+"for ([i = 0, i < 10, (i++)])",,,,2022-04-23 14:11:48,2022-04-23 14:13:01,1m - 13.605s,PASSED
+,,,,,,,
+Test Cases/MR-Order/AddListProduk,,,,2022-04-23 14:13:01,2022-04-23 14:13:42,40.235s,PASSED
+"startExistingApplication(""com.cancreative.laundrypos"", STOP_ON_FAILURE)",,,,2022-04-23 14:13:02,2022-04-23 14:13:14,11.505s,PASSED
+"tap(findTestObject(""Req-Order/Produk/Nav-Menu""), 0)",,,,2022-04-23 14:13:14,2022-04-23 14:13:17,2.835s,PASSED
+"tap(findTestObject(""Req-Order/Produk/Menu-Produk""), 0)",,,,2022-04-23 14:13:17,2022-04-23 14:13:17,0.629s,PASSED
+"for ([i = 0, i < 3, (i++)])",,,,2022-04-23 14:13:17,2022-04-23 14:13:42,24.397s,PASSED
