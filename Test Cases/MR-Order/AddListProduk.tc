@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddListProduk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1f602964-4681-4bc0-a2a9-0677d7e4ae82</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2b0793c8-8bfd-40a3-809e-62ea608f7a52</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b267c48f-afd8-46e4-aa37-1ea561748255</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ea9afc1c-5b00-402e-a961-c4d57ccf6c03</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Tikar', 'Selimut', 'Sprei', 'Jaket']</defaultValue>
+      <description></description>
+      <id>2b0793c8-8bfd-40a3-809e-62ea608f7a52</id>
+      <masked>false</masked>
+      <name>nama</name>
+   </variable>
+   <variable>
+      <defaultValue>['Desc Tikar', 'Desc Selimut ', 'Desc Sprei', 'Desc Jaket']</defaultValue>
+      <description></description>
+      <id>b267c48f-afd8-46e4-aa37-1ea561748255</id>
+      <masked>false</masked>
+      <name>desc</name>
+   </variable>
+   <variable>
+      <defaultValue>['25000', '17500', '20000', '15000']</defaultValue>
+      <description></description>
+      <id>ea9afc1c-5b00-402e-a961-c4d57ccf6c03</id>
+      <masked>false</masked>
+      <name>harga</name>
+   </variable>
+</TestCaseEntity>

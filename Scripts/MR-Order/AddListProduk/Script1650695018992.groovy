@@ -17,15 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Navigation/Nav Pesanan'), 0)
+Mobile.startExistingApplication('com.cancreative.laundrypos', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.setText(findTestObject('Orderan List Page/Form-Cari Order'), 'Aurora', 0)
+Mobile.tap(findTestObject('Req-Order/Produk/Nav-Menu'), 0)
 
-Mobile.tap(findTestObject('Orderan List Page/ChooseFirstOrder'), 0)
+Mobile.tap(findTestObject('Req-Order/Produk/Menu-Produk'), 0)
 
-Mobile.tap(findTestObject('Orderan List Page/DtlOrder-Status-Proses'), 0)
+for (int i = 0; i < 3; i++) {
+    Mobile.tap(findTestObject('Req-Order/Produk/Btn-AddProduk'), 0)
 
-Mobile.tap(findTestObject('Orderan List Page/ConfirmChangeStratus'), 0)
+    Mobile.setText(findTestObject('Req-Order/Produk/TmbhPdk-Nama'), nama[i], 0)
 
-Mobile.tap(findTestObject('Orderan List Page/BackBtnTap'), 0)
+    Mobile.setText(findTestObject('Req-Order/Produk/TmbhPdk-Deskripsi'), desc[i], 0)
+
+    Mobile.setText(findTestObject('Req-Order/Produk/TmbhPdk-Harga'), harga[i], 0)
+
+    Mobile.tap(findTestObject('Req-Order/Produk/Radio-Satuan-Kg'), 0)
+
+    Mobile.tap(findTestObject('Req-Order/Produk/Submit-Tambah-Produk'), 0)
+}
 

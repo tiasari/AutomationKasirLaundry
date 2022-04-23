@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.setText(findTestObject('Orderan List Page/Form-Cari Order'), 'Aurora', 0)
+Mobile.tap(findTestObject('Orderan List Page/Nav-Order-Diproses'), 0)
+
+Mobile.setText(findTestObject('Orderan List Page/Form-Cari Order'), 'Andi', 0)
 
 Mobile.tap(findTestObject('Orderan List Page/ChooseFirstOrder'), 0)
 

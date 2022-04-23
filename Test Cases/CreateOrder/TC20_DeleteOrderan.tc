@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC20_DeleteOrder</name>
+   <name>TC20_DeleteOrderan</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>5b1d971d-24fe-41a1-9fc1-8a6c78f6089e</testCaseGuid>
+   <testCaseGuid>9529db41-d842-49d2-9de1-a0539746ba36</testCaseGuid>
 </TestCaseEntity>

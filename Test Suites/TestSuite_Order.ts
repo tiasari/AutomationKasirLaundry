@@ -26,17 +26,17 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>635678c5-759c-4a47-bda3-690c52179a0f</guid>
+      <guid>5addf0d0-c934-4589-9176-a797ffc0f6c5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CreateOrder/TC19_ChangeStatusOrder</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5addf0d0-c934-4589-9176-a797ffc0f6c5</guid>
+      <guid>635678c5-759c-4a47-bda3-690c52179a0f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CreateOrder/TC20_DeleteOrder</testCaseId>
+      <testCaseId>Test Cases/CreateOrder/TC20_DeleteOrderan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

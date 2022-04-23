@@ -17,34 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Buka Aplikasi\r\n'
-Mobile.startApplication('C:\\Users\\user\\Downloads\\Laundry_POS_base.apk', false)
+Mobile.tap(findTestObject('Navigation/Nav Pesanan'), 0)
 
-'tap icon +'
-Mobile.tap(findTestObject('Navigation/NavAdd'), 0)
+Mobile.setText(findTestObject('Orderan List Page/Form-Cari Order'), 'Andi', 0)
 
-'set pelanggan yang beli'
-Mobile.setText(findTestObject('Order/AddCustAndProduk/Order-SearchPelangganForm'), 'Andi', 0)
+Mobile.tap(findTestObject('Orderan List Page/ChooseFirstOrder'), 0)
 
-'cek apakah list choose pertama ada\r\n'
-Mobile.verifyElementExist(findTestObject('Order/AddCustAndProduk/Choose Pelanggan Teratas'), 0)
+Mobile.tap(findTestObject('Orderan List Page/DtlOrder-Status-Proses'), 0)
 
-'tap elemen teratas jika ada\r\n'
-Mobile.tap(findTestObject('Order/AddCustAndProduk/Choose Pelanggan Teratas'), 0)
+Mobile.tap(findTestObject('Orderan List Page/ConfirmChangeStratus'), 0)
 
-Mobile.tap(findTestObject('Order/AddCustAndProduk/Btn-pilihPelanggan'), 0)
-
-Mobile.verifyElementText(findTestObject('Order/AddCustAndProduk/PilihProduk-Tittle'), 'Pilih Produk')
-
-Mobile.setText(findTestObject('Order/AddCustAndProduk/PilihProduk-SearchBox'), 'Tikar', 0)
-
-Mobile.verifyElementExist(findTestObject('Order/AddCustAndProduk/Select Produk, teratas'), 0)
-
-Mobile.tap(findTestObject('Order/AddCustAndProduk/Select Produk, teratas'), 0)
-
-Mobile.setText(findTestObject('Order/AddCustAndProduk/PilihProduk-FormJumlah'), '3', 0)
-
-Mobile.tap(findTestObject('Order/AddCustAndProduk/PillihProduk-SubmitKeranjang'), 0)
-
-Mobile.tap(findTestObject('Order/AddCustAndProduk/PilihProduk-BtnLanjut'), 0)
+Mobile.tap(findTestObject('Orderan List Page/BackBtnTap'), 0)
 

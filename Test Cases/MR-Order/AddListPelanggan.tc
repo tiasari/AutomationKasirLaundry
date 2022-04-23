@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AddListPelanggan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4658eb2-5e4f-4d80-903e-ffd14b566d21</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ec6eaa11-f85d-43df-a6de-bbdf0218e95d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad569108-c48e-4059-a843-cbbe1058277f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>af95821d-2b9e-468c-8220-8a5bc7dc7c25</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>['Yusuf Pertiwi', 'Akbar Qosthory', 'Surya Labas', 'Jhon Deviyanto', 'Rahardianto Mufti', 'Chaerul Ibidemu', 'Revi Caroline', 'Reynard Parhorasan', 'Muhammad Halida', 'Andi Beckley Diva', 'Arie Purwahyuningrum', 'Bryan Rahayu']</defaultValue>
+      <description></description>
+      <id>ec6eaa11-f85d-43df-a6de-bbdf0218e95d</id>
+      <masked>false</masked>
+      <name>nama</name>
+   </variable>
+   <variable>
+      <defaultValue>['0843212345532', '0821234565432', '084321345433', '085345643214', '081345654323', '089453423345', '081123245544', '089342343242', '084512476783', '082456845342', '081456934432', '081256712312']</defaultValue>
+      <description></description>
+      <id>ad569108-c48e-4059-a843-cbbe1058277f</id>
+      <masked>false</masked>
+      <name>contact</name>
+   </variable>
+   <variable>
+      <defaultValue>['Kepuk', 'Bringin', 'Pekalongan', 'Ngasem', 'Wonorejo', 'Wonorejo', 'Bandengan', 'Bangsri', 'Bandungharjo', 'Banjaragung', 'Bangsri']</defaultValue>
+      <description></description>
+      <id>af95821d-2b9e-468c-8220-8a5bc7dc7c25</id>
+      <masked>false</masked>
+      <name>alamat</name>
+   </variable>
+</TestCaseEntity>
